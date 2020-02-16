@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-sam-opencv"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-73zamrmz1oqo"
+s3_prefix = "aws-sam-opencv"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
